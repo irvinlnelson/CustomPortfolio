@@ -1,0 +1,20 @@
+body {
+	background: #fff7f8;
+}
+
+.logo:after {
+	background: url(../../img/themes-source/pink.png) no-repeat;
+	background-size: cover;
+}
+
+.label .num:before {
+	background: rgb(255,202,209);
+	background: -moz-linear-gradient(left,  rgba(255,202,209,1) 0%, rgba(255,221,225,1) 100%);
+	background: -webkit-linear-gradient(left,  rgba(255,202,209,1) 0%,rgba(255,221,225,1) 100%);
+	background: linear-gradient(to right,  rgba(255,202,209,1) 0%,rgba(255,221,225,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffcad1', endColorstr='#ffdde1',GradientType=1 );
+}
+
+a.icon:hover {
+	color: #ffcad1;
+}

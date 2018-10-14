@@ -1,0 +1,20 @@
+body {
+	background: #fff7eb;
+}
+
+.logo:after {
+	background: url(../../img/themes-source/brown.png) no-repeat;
+	background-size: cover;
+}
+
+.label .num:before {
+	background: rgb(255,227,185);
+	background: -moz-linear-gradient(left,  rgba(255,227,185,1) 0%, rgba(255,240,217,1) 100%);
+	background: -webkit-linear-gradient(left,  rgba(255,227,185,1) 0%,rgba(255,240,217,1) 100%);
+	background: linear-gradient(to right,  rgba(255,227,185,1) 0%,rgba(255,240,217,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe3b9', endColorstr='#fff0d9',GradientType=1 );
+}
+
+a.icon:hover {
+	color: #ffe3b9;
+}

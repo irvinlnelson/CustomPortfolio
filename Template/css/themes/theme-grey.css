@@ -1,0 +1,20 @@
+body {
+	background: #f7f7f7;
+}
+
+.logo:after {
+	background: url(../../img/themes-source/grey.png) no-repeat;
+	background-size: cover;
+}
+
+.label .num:before {
+	background: rgb(228,228,228);
+	background: -moz-linear-gradient(left,  rgba(228,228,228,1) 0%, rgba(239,239,239,1) 100%);
+	background: -webkit-linear-gradient(left,  rgba(228,228,228,1) 0%,rgba(239,239,239,1) 100%);
+	background: linear-gradient(to right,  rgba(228,228,228,1) 0%,rgba(239,239,239,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4e4e4', endColorstr='#efefef',GradientType=1 );
+}
+
+a.icon:hover {
+	color: #e4e4e4;
+}
